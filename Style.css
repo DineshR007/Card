@@ -1,0 +1,62 @@
+*{  background: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.Card{
+    width: 250px;
+    padding: 10px 10px 20px 10p;
+    border: 2px solid white;
+    box-shadow: 2px 2px white;
+}
+.Card img{
+    width: 100%;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 10px;
+
+}
+.box2{
+    padding-right: 20px;
+}
+nav{
+    color: antiquewhite;
+}
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    text-decoration: underline;
+    text-transform: uppercase; 
+}
+.box3:hover
+{
+    background-color: black;
+}
